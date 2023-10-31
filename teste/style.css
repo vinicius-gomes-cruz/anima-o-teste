@@ -1,0 +1,45 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+/* div-1 .animacao{
+    transition: 1s;
+} */
+
+div .animacao{
+    transition: 1s;
+}
+
+.div-1 .animacao{
+    transform: translateX(90vh);
+}
+
+.div-1.animado .animacao{
+    transform: translateX(0vh);
+}
+
+.div-2 .animacao{
+    transform: translateX(90vh);
+}
+
+.div-2.animado .animacao{
+    transform: translateX(0vh);
+}
+
+.div-3 .animacao{
+    transform: translateX(90vh);
+}
+
+.div-3.animado .animacao{
+    transform: translateX(0vh);
+}
+
+
+
+/* div-1.animado .animacao{
+    transform: translateX(0%);
+} */

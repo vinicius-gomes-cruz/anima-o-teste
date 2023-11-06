@@ -62,11 +62,6 @@ footer{
     }
 }
 
-section {
-    display: flex;
-    justify-content: center;
-    min-height: 150vh
-}
 
 /* Animações */
 
@@ -127,7 +122,7 @@ section .animacao{
 
 .sec-1 .animacao{
     opacity: 0%;
-    transform: translatey(-90vh);
+    transform: translatey(-20vh);
 }
 
 .sec-1.animado .animacao{
@@ -136,18 +131,22 @@ section .animacao{
 }
 
 .sec-2 .animacao{
+    opacity: 0%;
     transform: translateX(90vh);
 }
 
 .sec-2.animado .animacao{
+    opacity: 100%;
     transform: translateX(0vh);
 }
 
 .sec-3 .animacao{
-    transform: translateX(90vh);
+    opacity: 0%;
+    transform: translateX(-90vh);
 }
 
 .sec-3.animado .animacao{
+    opacity: 100%;
     transform: translateX(0vh);
-}
+} 
 

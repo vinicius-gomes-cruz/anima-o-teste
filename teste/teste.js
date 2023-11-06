@@ -1,18 +1,18 @@
-let divs = document.querySelectorAll('div')
+let secs = document.querySelectorAll('section')
 
 window.onscroll = () => {
-     divs.forEach(div => {
+     secs.forEach(sec => {
          let top = window.scrollY;
-         let offset = div.offsetTop - 150;
-         let height = div.offsetHeight;
+         let offset = sec.offsetTop - 150;
+         let height = sec.offsetHeight;
          console.log(top)
 
          if (top >= offset && top < offset + height) {
-             div.classList.add('animado');
+             sec.classList.add('animado');
          }
 
          else {
-             div.classList.remove('animado');
+             sec.classList.remove('animado');
          }
      })
 }
